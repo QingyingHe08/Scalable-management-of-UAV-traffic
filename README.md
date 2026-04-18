@@ -67,11 +67,7 @@ The following datasets are used in this study. Due to file size limitations, som
 
 ### 3. Data availability statement
 
-Due to data privacy and licensing restrictions:
-
-- Raw Meituan and Cainiao datasets are **not redistributed** in this repository  
-- Processed or anonymized data may be available upon reasonable request  
-- All synthetic and reproducible datasets are included in this repository  
+All synthetic and reproducible datasets are included in this repository  
 
 This setup ensures compliance with data usage policies while maintaining reproducibility of the main results.
 
