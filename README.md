@@ -16,9 +16,9 @@ This project develops a **market-based airspace allocation framework** based on:
 - A **pricing-based primal–dual online algorithm**
 
 ##  📊 Data
-This repository includes both **external datasets (via URLs)** and **locally provided datasets** to support reproducibility.
+This repository includes relevant datasets to support reproducibility.
 
-### 1. External datasets
+### 1. Platform-specific datasets
 
 The following real-world datasets are used in this study and can be accessed via official sources:
 
@@ -38,32 +38,31 @@ The following real-world datasets are used in this study and can be accessed via
 
 ### 2. Repository datasets
 
-The following datasets are provided in this repository under the `data/` directory:
+The following datasets are used in this study. Due to file size limitations, some datasets are hosted externally via Google Drive.
 
-- **Generated demand scenarios**
-  - Simulated instances across multiple demand levels
-  - Includes origin–destination pairs, time windows, and route candidates
-  - Used in experiments in Section 2.2
- 
+- **Shenzhen locations dataset**
+  - ~5,000 anonymized locations sampled from Shenzhen, China  
+  - Provided in the repository (`data/`)
+
 - **Processed Meituan dataset**
   - Based on 568,545 on-demand delivery trips with anonymized pickup–dropoff locations and timestamps  
   - Processed to extract origin–destination pairs and feasible time windows, and to construct UAV counterparts using Euclidean distance (45 km/h)  
-  - Restricted to high-demand locations, defined as the top 20% most frequent pickup–delivery pairs
-  - Used in experiments in Section 2.3
- 
+  - Restricted to high-demand locations, defined as the top 20% most frequent pickup–delivery pairs  
+  - Used in experiments in Section 2.3  
+  - Provided in the repository (`data/`)
+
 - **Processed Cainiao dataset**
   - Derived from large-scale parcel delivery data  
   - Includes structured O–D pairs for first- and last-mile analysis  
-  - Used for cross-city evaluation
-  - Used in experiments in Section 2.3
- 
-- **Amap POI dataset**
-  - Nationwide point-of-interest data
-  - Used in Section 2.4
+  - Used for cross-city evaluation (Section 2.3)  
+  - Access (processed data): [https://drive.google.com/file/d/1bnSXyNDqzhmksw_w7pEcSpb1QKeil7_s/view?usp=sharing] and [https://drive.google.com/file/d/1Bq5_a4Wtyaz7lU0CPxBzOCUUOq8wLn6y/view?usp=sharing]
 
-- **Shenzhen locations dataset**
-  - ~5000 anonymized locations sampled from Shenzhen, China
-    
+- **Amap POI dataset**
+  - Nationwide point-of-interest data  
+  - Used in Section 2.4  
+  - Access: [https://drive.google.com/file/d/1kKIdRMjxHK_ZIo-6fMMBa_h6EPyb0eL0/view?usp=sharing]
+
+
 ---
 
 ### 3. Data availability statement
